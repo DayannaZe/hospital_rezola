@@ -14,6 +14,10 @@
             <a href="../paciente/pacientes.php" class="btn btn-primary btn-lg">Ver Pacientes</a>
             
         </div>
+        <div class="text-center mt-4">
+            <h1>Horarios de esta semana</h1>
+            <a href="ver_horarios.php" class="btn btn-primary btn-lg">Ver Horarios</a>
+    </div>
         
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
