@@ -28,7 +28,7 @@
     
            <nav class="navbar">
             <ul>
-                <li><a href="paciente.php">Paciente</a></li>
+                <li><a href="../Hospital_Rezola/paciente/paciente.php">Paciente</a></li>
                 <li><a href="#">Sacar cita</a></li>
                 <li><a href="#">Ver Historial medico</a></li>
                 <li><a href="#">Horario</a></li>
