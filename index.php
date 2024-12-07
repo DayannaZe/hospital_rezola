@@ -29,9 +29,9 @@
            <nav class="navbar">
             <ul>
                 <li><a href="paciente.php">Paciente</a></li>
-                <li><a href="#">Sacar cita</a></li>
+                <li><a href="especialidades.php">especialidades</a></li>
                 <li><a href="#">Ver Historial medico</a></li>
-                <li><a href="#">Horario</a></li>
+                <li><a href="ver_horarios.php">Horario</a></li>
                
           </ul>
     

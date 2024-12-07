@@ -31,6 +31,7 @@ $result = $conn->query($sql);
                 </form>
             </div>
             <div class="col-md-6 text-end">
+                <a href="index.php" class="btn btn-success">volver</a>
                 <a href="registrar_paciente.php" class="btn btn-success">Registrar Paciente</a>
             </div>
         </div>
@@ -56,7 +57,7 @@ $result = $conn->query($sql);
                             <td>".$row["apellido"]."</td>
                             <td>".$row["codigo_historial"]."</td>
                             <td>
-                                <a href='editar_paciente.php?dni=".$row["dni"]."' class='btn btn-primary btn-sm'>Editar</a>
+                                <a href='registrar_paciente.php?dni=".$row["dni"]."' class='btn btn-primary btn-sm'>Editar</a>
                                 <a href='mostrar_paciente.php?dni=".$row["dni"]."' class='btn btn-info btn-sm'>Mostrar</a>
                                 <a href='eliminar_paciente.php?dni=".$row["dni"]."' class='btn btn-danger btn-sm' onclick='return confirm(\"¿Estás seguro de que quieres eliminar este paciente?\")'>Eliminar</a>
                             </td>
