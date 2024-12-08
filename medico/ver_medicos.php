@@ -1,9 +1,9 @@
 <?php
-include 'db_connect.php';
+include '../db_connect.php';
 
 $sql = "SELECT m.id_medico, m.nombre, m.apellido, m.edad, e.nombre_especialidad 
         FROM medicos m 
-        JOIN especialidades e ON m.id_especialidad = e.id";
+        JOIN especialidades e ON m.id_especialidad = e.id_especialidad";
 $result = $conn->query($sql);
 ?>
 

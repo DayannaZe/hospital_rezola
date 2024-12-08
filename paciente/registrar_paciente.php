@@ -1,5 +1,5 @@
 <?php
-include 'db_connect.php';
+include '../db_connect.php';
 
 $dni = isset($_GET['dni']) ? $_GET['dni'] : null;
 $paciente = null;

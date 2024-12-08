@@ -3,48 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hospital Rezola </title>
-    <link rel="stylesheet" href="Style.css">
+    <title>Hospital Rezola</title>
+    <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Titan+One&display=swap" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Titan+One&display=swap" rel="stylesheet">
 </head>
-
 <body>
-        <header>
-            <div class="absolute">
+    <header>
+        <div class="container">
             <h1>HOSPITAL REZOLA</h1>
-            </div>
-        </header>
- 
-        <div class ="content">
-            <div class="menu container">
-                <a href="#" class="logo"> Logo </a>
-                <input type="checkbox" id="menu" />
-                <label for="menu" >
-                <img src=imagenes/menu.png  class="menu-icono" alt="menu"/>
-            </label>
-    
-           <nav class="navbar">
-            <ul>
-                <li><a href="paciente.php">Paciente</a></li>
-                <li><a href="especialidades.php">especialidades</a></li>
-                <li><a href="#">Ver Historial medico</a></li>
-                <li><a href="ver_horarios.php">Horario</a></li>
-               
-          </ul>
-    
-           </nav> 
-    
-    
-            </div>
-             
-       </div>
-       <video id="background-video" autoplay muted loop preload="auto" width="100%" height="100%">
+            <nav class="navbar">
+                <a href="#" class="logo">Logo</a>
+                <input type="checkbox" id="menu-toggle">
+                <label for="menu-toggle" class="menu-icon">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
+                <ul class="menu">
+                    <li><a href="paciente/paciente.php">Registro</a></li>
+                    <li><a href="especialidades/administracion.php">Administracion</a></li>
+                    <li><a href="#">Ver Historial Médico</a></li>
+                    <li><a href="horario/ver_horarios.php">Horarios</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="content">
+            <h2>Bienvenido al Hospital Rezola</h2>
+            <p>Cuidando de su salud con excelencia y compromiso</p>
+        </div>
+    </main>
+
+    <video id="background-video" autoplay muted loop playsinline>
         <source src="video/video.mp4" type="video/mp4">
         Your browser does not support the video tag.
-    
-    </video>       
+    </video>
 </body>
 </html>

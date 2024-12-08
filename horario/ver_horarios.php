@@ -1,5 +1,5 @@
 <?php
-include 'db_connect.php';
+include '../db_connect.php';
 
 $sql_dias = "SELECT h.id, h.fecha, h.hora_inicio, h.hora_fin, m.nombre, m.apellido, e.nombre_especialidad
              FROM horarios h
@@ -27,7 +27,7 @@ $result_especialidades = $conn->query($sql_especialidades);
 </head>
 <body>
     <div class="container mt-5">
-        <a href="index.php" class="btn btn-secondary mb-3">Volver al Inicio</a>
+        <a href="../index.php" class="btn btn-secondary mb-3">Volver al Inicio</a>
         
         <h1 class="mb-4">Horarios</h1>
         <div class="mb-3">

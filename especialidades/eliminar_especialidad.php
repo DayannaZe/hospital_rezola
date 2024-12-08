@@ -1,5 +1,5 @@
 <?php
-include 'db_connect.php';
+include '../db_connect.php';
 
 if (isset($_GET['id_especialidad'])) {
     $id = $_GET['id_especialidad'];

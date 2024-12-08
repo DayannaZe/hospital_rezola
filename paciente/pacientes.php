@@ -1,5 +1,5 @@
 <?php
-include 'db_connect.php';
+include '../db_connect.php';
 
 // Lógica para buscar pacientes
 $search = isset($_GET['search']) ? $_GET['search'] : '';
@@ -31,7 +31,7 @@ $result = $conn->query($sql);
                 </form>
             </div>
             <div class="col-md-6 text-end">
-                <a href="index.php" class="btn btn-success">volver</a>
+                <a href="../index.php" class="btn btn-success">volver</a>
                 <a href="registrar_paciente.php" class="btn btn-success">Registrar Paciente</a>
             </div>
         </div>

@@ -1,5 +1,5 @@
 <?php
-include 'db_connect.php';
+include '../db_connect.php';
 
 $mensaje = '';
 
@@ -43,6 +43,7 @@ $result = $conn->query($sql);
 <body>
     <div class="container">
         <h1 class="mb-4 text-center">Gestión de Especialidades</h1>
+        <a href="medico/ver_medicos.php" class="btn btn-secondary mt-3 ">Registrar medicos</a>
 
         <div id="mensajeContainer">
             <?php echo $mensaje; ?>
@@ -84,8 +85,11 @@ $result = $conn->query($sql);
             </tbody>
         </table>
 
-        <a href="index.php" class="btn btn-secondary mt-3 w-100">Volver al inicio</a>
+        <a href="../index.php" class="btn btn-secondary mt-3 w-100">Volver al inicio</a>
+        
+
     </div>
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     <script>
@@ -111,5 +115,6 @@ $result = $conn->query($sql);
             });
         });
     </script>
+
 </body>
 </html>
