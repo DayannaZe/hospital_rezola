@@ -13,6 +13,7 @@
     <header>
         <div class="container">
             <h1>HOSPITAL REZOLA</h1>
+
             <nav class="navbar">
                 <a href="#" class="logo">Logo</a>
                 <input type="checkbox" id="menu-toggle">
@@ -39,6 +40,7 @@
     </main>
 
     <video id="background-video" autoplay muted loop playsinline>
+
         <source src="video/video.mp4" type="video/mp4">
         Your browser does not support the video tag.
     </video>
